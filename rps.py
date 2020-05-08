@@ -96,7 +96,7 @@ def difficulty():
     if request.method == 'POST':
         q=request.form.get('difficulty')
         session['key']=q
-        return render_template("r_p_s.html") ,'OK'
+        return render_template("r_p_s.html")
       
 
     
